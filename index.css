@@ -1,8 +1,8 @@
 :root {
-	--bg: white ;
-	--bg-box: antiquewhite;
+	--bg: #fff ;
+	--bg-box: #f0f0f0;
 	--box-shadow: rgb(0, 0, 0, 0.2);
-	--text: lightgray;
+	--text: #222;
 	--accent: #7E5C8D;
 	--accent-dark: #594263;
 }
