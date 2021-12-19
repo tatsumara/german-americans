@@ -1,33 +1,37 @@
 :root {
 	--bg: #fff ;
 	--bg-box: #f0f0f0;
-	--box-shadow: rgb(0, 0, 0, 0.2);
+	--box-shadow: rgb(0, 0, 0, 0.4);
 	--text: #222;
 	--accent: #3C3B6E;
+	--accent-hover: #605fa8;
 }
 
 body {
 	background-color: var(--bg);
-	padding: 10px 10px;
-    max-width: 70%;
-	margin: auto
+	padding: 10px;
+	margin: auto;
 }
 
 .box_container {
-	margin-top: 10px;
 	display: grid;
+	overflow:visible;
 	grid-gap: 10px 10px;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 .box {
 	background-color: var(--bg-box);
 	color: var(--text);
-	font-family: Consolas,monaco,monospace; 
-	box-shadow: 5px 5px 5px var(--box-shadow);
+	font-family: Arial, Helvetica, sans-serif; 
+	box-shadow: 0px 0px 10px var(--box-shadow);
 	border-radius: 6px;
 	padding: 20px;
 	text-align: center;
+	transition: transform 100ms;
 	
+}
+.box:hover {
+	transform: scale(1.035);
 }
 
 ul {
@@ -50,9 +54,14 @@ p {
 	margin: 0px;
 }
 a {
-	color: var(--accent)
+	color: var(--accent);
+	transition: color 250ms;
 }
 a:hover {
-	color: var(--accent-dark);
-	transition: color 300ms;
+	color: var(--accent-hover);
+}
+img {
+	width: 100%;
+	object-fit: fill;
+	border-radius: 6px;
 }
