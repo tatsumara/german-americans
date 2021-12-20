@@ -1,0 +1,54 @@
+@import "colors.css";
+
+body {
+	background-color: var(--bg);
+	padding: 10px;
+	margin: auto;
+	max-width: 960px;
+	justify-content:center;
+}
+
+.content {
+	background-color: var(--bg-box);
+	color: var(--text);
+	font-family: Arial, Helvetica, sans-serif; 
+	box-shadow: 0px 0px 10px var(--box-shadow);
+	border-radius: 6px;
+	padding: 20px;
+}
+
+ul {
+	text-align: start;
+	padding-left: 20px;
+}
+h1 {
+	color: var(--accent);
+	font-size: 28px;
+	text-align: start;
+	margin-top: 0px;
+}
+h2 {
+	color: var(--accent);
+	font-size: 18px;
+	text-align: start;
+}
+p {
+	text-align: start;
+	font-size: 18px;
+	margin: 0px;
+}
+a {
+	color: var(--accent);
+	transition: color 250ms;
+}
+a:hover {
+	color: var(--accent-hover);
+}
+img {
+	max-width: 50%;
+	max-height: 280px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	border-radius: 6px;
+}
