@@ -11,6 +11,7 @@ body {
 	background-color: var(--bg);
 	padding: 10px;
 	margin: auto;
+	justify-content:center;
 }
 
 .box_container {
@@ -26,12 +27,19 @@ body {
 	box-shadow: 0px 0px 10px var(--box-shadow);
 	border-radius: 6px;
 	padding: 20px;
-	text-align: center;
 	transition: transform 100ms;
-	
 }
 .box:hover {
 	transform: scale(1.035);
+}
+
+.content {
+	background-color: var(--bg-box);
+	color: var(--text);
+	font-family: Arial, Helvetica, sans-serif; 
+	box-shadow: 0px 0px 10px var(--box-shadow);
+	border-radius: 6px;
+	padding: 20px;
 }
 
 ul {
