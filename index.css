@@ -1,10 +1,10 @@
 :root {
-	--bg: #fff ;
-	--bg-box: #9f9edd;
+	--bg: #9f9edd ;
+	--bg-box: #fff;
 	--box-shadow: rgb(0, 0, 0, 0.4);
 	--text: #222;
 	--accent: #BF0A30;
-	--accent-hover: #9f9edd;
+	--accent-hover: #940000;
 }
 
 body {
