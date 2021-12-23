@@ -9,7 +9,6 @@ body {
 
 .box_container {
 	display: grid;
-	overflow:visible;
 	grid-gap: 10px 10px;
 	grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
