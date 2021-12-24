@@ -7,6 +7,23 @@ body {
 	justify-content:center;
 }
 
+#header {
+	color:var(--accent);
+	background-color: var(--bg-box);
+	box-shadow: 0px 0px 10px var(--box-shadow);
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+	transition: transform 250ms;
+}
+#header:hover {
+	transform: scale(1.025);
+}
+
 .box_container {
 	display: grid;
 	grid-gap: 10px 10px;
@@ -32,6 +49,21 @@ body {
 	box-shadow: 0px 0px 10px var(--box-shadow);
 	border-radius: 6px;
 	padding: 20px;
+}
+
+#footer {
+	color:var(--text);
+	background-color: var(--bg-box);
+	box-shadow: 0px 0px 10px var(--box-shadow);
+	border-radius: 6px;
+	padding: 10px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-align: center;
+	transition: transform 100ms;
+}
+#footer:hover {
+	transform: scale(1.025);
 }
 
 ul {
