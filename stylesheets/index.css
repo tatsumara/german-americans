@@ -18,10 +18,6 @@ body {
 	font-weight: bolder;
 	font-size: 30px;
 	text-align: center;
-	transition: transform 250ms;
-}
-#header:hover {
-	transform: scale(1.025);
 }
 
 .box_container {
@@ -60,10 +56,6 @@ body {
 	margin-top: 10px;
 	font-family: Arial, Helvetica, sans-serif; 
 	text-align: center;
-	transition: transform 100ms;
-}
-#footer:hover {
-	transform: scale(1.025);
 }
 
 ul {
