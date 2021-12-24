@@ -38,15 +38,6 @@ body {
 	transform: scale(1.035);
 }
 
-.content {
-	background-color: var(--bg-box);
-	color: var(--text);
-	font-family: Arial, Helvetica, sans-serif; 
-	box-shadow: 0px 0px 10px var(--box-shadow);
-	border-radius: 6px;
-	padding: 20px;
-}
-
 #footer {
 	color:var(--text);
 	background-color: var(--bg-box);
