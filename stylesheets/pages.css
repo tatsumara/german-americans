@@ -26,9 +26,14 @@ body {
 	clear: both;
 	display: table;
 }
-
+ul  {
+	padding-left: 0;
+  }
+ul li {
+	list-style-position: inside;
+ }
 li {
 	text-align: start;
 	font-size: 18px;
-	margin: 0px;
+	margin: 1px;
 }
