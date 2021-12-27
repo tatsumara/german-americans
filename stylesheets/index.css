@@ -5,6 +5,7 @@ body {
 	padding: 10px;
 	margin: auto;
 	justify-content:center;
+	max-width: 1600px;
 }
 
 #header {
