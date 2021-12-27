@@ -13,9 +13,16 @@ body {
 	border-radius: 6px;
 	padding: 20px;
 }
-.content::after { 
-	content: " ";
-	display: block; 
-	height: 0; 
+.content-list {
+	column-count: 2;
+}
+@media screen and (max-width: 500px) {
+	.content-list {
+		column-count: 1;
+	}
+}
+.content::after {
+	content: "";
 	clear: both;
- }
+	display: table;
+  }
