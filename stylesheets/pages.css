@@ -26,6 +26,11 @@ body {
 	clear: both;
 	display: table;
 }
+
+.accent {
+	color: var(--accent)
+}
+
 ul  {
 	padding-left: 0;
   }
